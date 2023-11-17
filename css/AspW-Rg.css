@@ -1,0 +1,41 @@
+/*
+        This font software is the property of JT Types Ltd.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        Copyright (C) 2015 JT Types Ltd. 
+*/
+
+@font-face {
+	font-family: 'AspW-Rg';
+	src: url('../fonts/AspW-Rg/aspw-rg.eot');
+	src: url('../fonts/AspW-Rg/aspw-rg.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AspW-Rg/aspw-rg.woff2') format('woff2'),
+		 url('../fonts/AspW-Rg/aspw-rg.woff') format('woff'),
+		 url('../fonts/AspW-Rg/aspw-rg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aspect Bold';
+	src: url('../fonts/AspW-Rg/aspw-rg.eot');
+	src: url('../fonts/AspW-Rg/aspw-rg.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AspW-Rg/aspw-rg.woff2') format('woff2'),
+		 url('../fonts/AspW-Rg/aspw-rg.woff') format('woff'),
+		 url('../fonts/AspW-Rg/aspw-rg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Aspect Regular';
+	src: url('../fonts/AspW-Rg/aspw-rg.eot');
+	src: url('../fonts/AspW-Rg/aspw-rg.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/AspW-Rg/aspw-rg.woff2') format('woff2'),
+		 url('../fonts/AspW-Rg/aspw-rg.woff') format('woff'),
+		 url('../fonts/AspW-Rg/aspw-rg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+

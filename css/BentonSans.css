@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "Benton Sans Lt";
+	font-weight: Normal;
+	font-style: Normal;
+	src: url("../fonts/BentonSans/Light/eot.eot?v=4.7.0");
+	src: url("../fonts/BentonSans/Light/eot.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/BentonSans/Light/woff2.php") format("woff2"),
+	url("../fonts/BentonSans/Light/woff.woff?v=4.7.0") format("woff");
+}
+
+@font-face {
+	font-family: "Benton Sans Lt It";
+	font-weight: Normal;
+	font-style: Italic;
+	src: url("../fonts/BentonSans/LightItalic/eot.eot");
+	src: url("../fonts/BentonSans/LightItalic/eot.eot#iefix") format("embedded-opentype"),
+	/*url("../fonts/BentonSans/LightItalic/woff2.woff2") format("woff2"),*/
+	url("../fonts/BentonSans/LightItalic/woff.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Benton Sans Reg";
+	font-weight: Normal;
+	font-style: Normal;
+	src: url("../fonts/BentonSans/Reg/eot.eot");
+	src: url("../fonts/BentonSans/Reg/eot.eot#iefix") format("embedded-opentype"),
+	url("../fonts/BentonSans/Reg/woff.woff2?woff") format("woff2"),
+	url("../fonts/BentonSans/Reg/woff.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Benton Sans It";
+	font-weight: Normal;
+	font-style: Italic;
+	src: url("../fonts/BentonSans/Italic/eot.eot");
+	src: url("../fonts/BentonSans/Italic/eot.eot#iefix") format("embedded-opentype"),
+/*	url("../fonts/BentonSans/Italic/woff2.woff2") format("woff2"),*/
+	url("../fonts/BentonSans/Italic/woff.woff") format("woff");
+}

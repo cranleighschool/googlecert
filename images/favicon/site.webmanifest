@@ -1,0 +1,14 @@
+{
+    "name": "Cranleigh Google Certificate",
+    "short_name": "Cranleigh Google Certificate",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0c223f",
+    "background_color": "#0c223f",
+    "display": "standalone"
+}

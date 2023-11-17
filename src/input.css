@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Benton Sans Reg', sans-serif;
+}
+section {
+    margin-left: 10px;
+}
+h1,h2,h3 {
+    font-family: 'AspW-Rg', sans-serif;
+    text-transform: uppercase;
+}
+.animate-pull-down {
+    transition: transform 0.5s ease-in-out;
+}
+
+@screen sm {
+    .animate-pull-down:hover {
+        transform: translateY(10px);
+    }
+
+}
+
+
+@font-face {
+    font-family: "Benton Sans Lt";
+    font-weight: Normal;
+    font-style: Normal;
+    src: url("../fonts/BentonSans/Light/eot.eot?v=4.7.0");
+    src: url("../fonts/BentonSans/Light/eot.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BentonSans/Light/woff2.php") format("woff2"),
+    url("../fonts/BentonSans/Light/woff.woff?v=4.7.0") format("woff");
+}
+
+@font-face {
+    font-family: "Benton Sans Lt It";
+    font-weight: Normal;
+    font-style: Italic;
+    src: url("../fonts/BentonSans/LightItalic/eot.eot");
+    src: url("../fonts/BentonSans/LightItalic/eot.eot#iefix") format("embedded-opentype"),
+        /*url("../fonts/BentonSans/LightItalic/woff2.woff2") format("woff2"),*/
+    url("../fonts/BentonSans/LightItalic/woff.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Benton Sans Reg";
+    font-weight: Normal;
+    font-style: Normal;
+    src: url("../fonts/BentonSans/Reg/eot.eot");
+    src: url("../fonts/BentonSans/Reg/eot.eot#iefix") format("embedded-opentype"),
+    url("../fonts/BentonSans/Reg/woff.woff2?woff") format("woff2"),
+    url("../fonts/BentonSans/Reg/woff.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Benton Sans It";
+    font-weight: Normal;
+    font-style: Italic;
+    src: url("../fonts/BentonSans/Italic/eot.eot");
+    src: url("../fonts/BentonSans/Italic/eot.eot#iefix") format("embedded-opentype"),
+        /*	url("../fonts/BentonSans/Italic/woff2.woff2") format("woff2"),*/
+    url("../fonts/BentonSans/Italic/woff.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'AspW-Rg';
+    src: url('../fonts/AspW-Rg/aspw-rg.eot');
+    src: url('../fonts/AspW-Rg/aspw-rg.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AspW-Rg/aspw-rg.woff2') format('woff2'),
+    url('../fonts/AspW-Rg/aspw-rg.woff') format('woff'),
+    url('../fonts/AspW-Rg/aspw-rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -3,66 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Web Page</title>
+    <title>Cranleigh School Google Certificate</title>
     <!-- Include the Tailwind CSS CDN link -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0c223f">
+    <meta name="msapplication-TileColor" content="#0c223f">
+    <meta name="theme-color" content="#0c223f">
 </head>
 <body class="bg-gray-100">
 
-    <!-- Header with Logo -->
-    <header class="bg-blue-500 p-4 text-white">
-        <div class="container mx-auto">
-            <div class="flex items-center justify-between">
-                <div>
-                    <!-- Your Logo Here -->
-                    <img src="your-logo.png" alt="Logo" class="h-8">
-                </div>
-                <div>
-                    <!-- Navigation links can be added here -->
-                </div>
-            </div>
+<!-- Header with Logo -->
+<header class="bg-senior p-4 text-white">
+    <div class="container mx-auto">
+        <div class="flex items-center">
+            <img src="./images/senior.png" alt="Logo" class="h-10 float-left">
+            <h1>Google Certificate</h1>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- Content Section with 4 Columns and Cards -->
-    <section class="container mx-auto mt-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <!-- Card 1 -->
-            <div class="bg-white p-4 rounded shadow">
-                <img src="image1.jpg" alt="Image 1" class="w-full h-32 object-cover mb-4 rounded">
-                <h2 class="text-lg font-bold mb-2">Card Title 1</h2>
-                <p class="text-gray-700">Description for Card 1.</p>
-            </div>
+<!-- Content Section with 4 Columns and Cards -->
+<section class="container mx-auto mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Card 1 -->
+            <a href="./instructions/window10.pdf" class="bg-white p-4 rounded shadow animate-pull-down">
+                <img src="./images/windows10.jpg" alt="Image 1" class="w-full h-32 object-cover mb-4 rounded">
+                <h2 class="text-lg font-bold mb-2">Windows 10</h2>
+                <p class="text-gray-700">View instructions for Windows 10 devices.</p>
+            </a>
+<!--        </a>-->
 
-            <!-- Card 2 -->
-            <div class="bg-white p-4 rounded shadow">
-                <img src="image2.jpg" alt="Image 2" class="w-full h-32 object-cover mb-4 rounded">
-                <h2 class="text-lg font-bold mb-2">Card Title 2</h2>
-                <p class="text-gray-700">Description for Card 2.</p>
-            </div>
+        <!-- Card 2 -->
+        <a href="./instructions/macos.pdf" class="bg-white p-4 rounded shadow animate-pull-down">
+            <img src="./images/macos.jpg" alt="Image 2" class="w-full h-32 object-cover mb-4 rounded">
+            <h2 class="text-lg font-bold mb-2">MacOS</h2>
+            <p class="text-gray-700">View instructions for MacBook, iMac and other MacOS devices.</p>
+        </a>
 
-            <!-- Card 3 -->
-            <div class="bg-white p-4 rounded shadow">
-                <img src="image3.jpg" alt="Image 3" class="w-full h-32 object-cover mb-4 rounded">
-                <h2 class="text-lg font-bold mb-2">Card Title 3</h2>
-                <p class="text-gray-700">Description for Card 3.</p>
-            </div>
+        <!-- Card 3 -->
+        <a href="./instructions/ios.pdf" class="bg-white p-4 rounded shadow animate-pull-down">
+            <img src="./images/ios.jpg" alt="Image 3" class="w-full h-32 object-cover mb-4 rounded">
+            <h2 class="text-lg font-bold mb-2">iOS &amp; iPadOS</h2>
+            <p class="text-gray-700">View instructions for iPhones and personal iPads.</p>
+        </a>
 
-            <!-- Card 4 -->
-            <div class="bg-white p-4 rounded shadow">
-                <img src="image4.jpg" alt="Image 4" class="w-full h-32 object-cover mb-4 rounded">
-                <h2 class="text-lg font-bold mb-2">Card Title 4</h2>
-                <p class="text-gray-700">Description for Card 4.</p>
-            </div>
-        </div>
-    </section>
+        <!-- Card 4 -->
+        <a href="./instructions/android.pdf" class="bg-white p-4 rounded shadow animate-pull-down">
+            <img src="./images/andriod.jpg" alt="Image 4" class="w-full h-32 object-cover mb-4 rounded">
+            <h2 class="text-lg font-bold mb-2">Android</h2>
+            <p class="text-gray-700">View instructions for Android Devices.</p>
+        </a>
+    </div>
+</section>
+<section class="container mx-auto mt-8 bg-senior p-4 rounded shadow text-white">
+    <h2 class="text-lg">Do you use a Chromebook?</h2>
+    <p>
+        There are some subtle differences in the installation process on a Chromebook. Firstly, you’ll need to :</p>
+</section>
+<section class="container mx-auto mt-8 bg-senior p-4 rounded shadow text-white">
+    <h2 class="text-lg">
+        Why do I need the Google Certificate on my device?</h2>
+    <p>
+        The Google Certificate is entirely optional and only required if you need to use Google services on your
+        personal
+        devices. It allows the School to filter your internet searches/Google activity to comply with safeguarding
+        requirements whilst still ensuring your data is encrypted when sent over the internet. It only applies when at
+        School on the WiFi – installing this certificate does not give the School access to your phone or any control
+        over
+        it!</p>
+</section>
 
-    <!-- Static Footer -->
-    <footer class="bg-gray-800 text-white p-4 mt-8">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2023 Your Company. All rights reserved.</p>
-        </div>
-    </footer>
+<!-- Static Footer -->
+<footer class="bg-senior text-white p-4 mt-8">
+    <div class="container mx-auto text-right">
+  <p>For support, email: <a href="mailto:servicedesk@cranleigh.org">servicedesk@cranleigh.org</a>.
+        </p>
+    </div>
+</footer>
 
 </body>
 </html>
