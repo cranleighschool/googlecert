@@ -8,6 +8,8 @@ module.exports = {
         extend: {
             colors: {
                 'senior': '#0C223f',
+                'yellow': '#FFC627',
+                'yellow-hover': '#FFd000'
             }
         },
     },

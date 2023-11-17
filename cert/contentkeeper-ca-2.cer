@@ -1,0 +1,71 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            5a:3f:be:bc:db:7d:b4:29:16:77:d7:64:49:60:98:fa
+    Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C=AU, ST=ACT, L=Canberra, O=ContentKeeper, OU=Cloud, CN=ContentKeeper CA CranleighSchool (1763287)
+        Validity
+            Not Before: May 21 00:00:00 2023 GMT
+            Not After : May 23 00:00:00 2033 GMT
+        Subject: C=AU, ST=ACT, L=Canberra, O=ContentKeeper, OU=Cloud, CN=ContentKeeper CA CranleighSchool (1763287)
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub: 
+                    04:d0:d9:2c:6d:27:5a:3b:d4:42:cb:6e:94:26:63:
+                    79:87:cd:fa:e9:17:3e:7e:0e:ba:2f:e6:bf:6e:64:
+                    ed:39:ef:d0:3b:e1:c2:ed:7a:46:25:72:38:96:24:
+                    37:26:ee:05:19:74:5c:1b:b9:e7:bc:be:19:56:45:
+                    70:18:a7:83:53
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Subject Key Identifier: 
+                5D:CA:37:18:6B:DC:5D:2F:FD:EA:A2:81:D4:AC:65:BC:4D:92:40:3B
+            X509v3 Subject Alternative Name: 
+                URI:http://ca.contentkeeper.net/, email:certmaster@contentkeeper.net
+            X509v3 Authority Key Identifier: 
+                keyid:5D:CA:37:18:6B:DC:5D:2F:FD:EA:A2:81:D4:AC:65:BC:4D:92:40:3B
+
+            X509v3 Issuer Alternative Name: 
+                URI:http://ca.contentkeeper.net/, email:certmaster@contentkeeper.net
+            Authority Information Access: 
+                CA Issuers - URI:https://wh.contentkeeper.net/1763287/ca.pem
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:https://wh.contentkeeper.net/1763287/ca.crl
+
+    Signature Algorithm: ecdsa-with-SHA256
+         30:45:02:21:00:e5:b2:8a:b3:56:ea:59:45:11:67:64:21:0f:
+         a1:aa:41:49:69:cf:3a:23:b7:98:e7:0b:1c:1d:9b:d4:e7:05:
+         ec:02:20:25:3c:12:b4:26:f1:a3:38:c6:cd:6e:0d:b7:1f:7e:
+         ef:d2:00:b8:ab:46:cc:fa:5e:1c:c7:94:63:bf:57:94:5c
+-----BEGIN CERTIFICATE-----
+MIIDkjCCAzigAwIBAgIQWj++vNt9tCkWd9dkSWCY+jAKBggqhkjOPQQDAjCBizEL
+MAkGA1UEBhMCQVUxDDAKBgNVBAgMA0FDVDERMA8GA1UEBwwIQ2FuYmVycmExFjAU
+BgNVBAoMDUNvbnRlbnRLZWVwZXIxDjAMBgNVBAsMBUNsb3VkMTMwMQYDVQQDDCpD
+b250ZW50S2VlcGVyIENBIENyYW5sZWlnaFNjaG9vbCAoMTc2MzI4NykwHhcNMjMw
+NTIxMDAwMDAwWhcNMzMwNTIzMDAwMDAwWjCBizELMAkGA1UEBhMCQVUxDDAKBgNV
+BAgMA0FDVDERMA8GA1UEBwwIQ2FuYmVycmExFjAUBgNVBAoMDUNvbnRlbnRLZWVw
+ZXIxDjAMBgNVBAsMBUNsb3VkMTMwMQYDVQQDDCpDb250ZW50S2VlcGVyIENBIENy
+YW5sZWlnaFNjaG9vbCAoMTc2MzI4NykwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNC
+AATQ2SxtJ1o71ELLbpQmY3mHzfrpFz5+Drov5r9uZO0579A74cLtekYlcjiWJDcm
+7gUZdFwbuee8vhlWRXAYp4NTo4IBejCCAXYwDwYDVR0TAQH/BAUwAwEB/zAOBgNV
+HQ8BAf8EBAMCAQYwHQYDVR0OBBYEFF3KNxhr3F0v/eqigdSsZbxNkkA7MEUGA1Ud
+EQQ+MDyGHGh0dHA6Ly9jYS5jb250ZW50a2VlcGVyLm5ldC+BHGNlcnRtYXN0ZXJA
+Y29udGVudGtlZXBlci5uZXQwHwYDVR0jBBgwFoAUXco3GGvcXS/96qKB1KxlvE2S
+QDswRQYDVR0SBD4wPIYcaHR0cDovL2NhLmNvbnRlbnRrZWVwZXIubmV0L4EcY2Vy
+dG1hc3RlckBjb250ZW50a2VlcGVyLm5ldDBHBggrBgEFBQcBAQQ7MDkwNwYIKwYB
+BQUHMAKGK2h0dHBzOi8vd2guY29udGVudGtlZXBlci5uZXQvMTc2MzI4Ny9jYS5w
+ZW0wPAYDVR0fBDUwMzAxoC+gLYYraHR0cHM6Ly93aC5jb250ZW50a2VlcGVyLm5l
+dC8xNzYzMjg3L2NhLmNybDAKBggqhkjOPQQDAgNIADBFAiEA5bKKs1bqWUURZ2Qh
+D6GqQUlpzzojt5jnCxwdm9TnBewCICU8ErQm8aM4xs1uDbcffu/SALirRsz6XhzH
+lGO/V5Rc
+-----END CERTIFICATE-----
